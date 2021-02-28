@@ -23,7 +23,7 @@ def label_protein(session, protein):
         run(session, 'name HelixAlphaf :218-233')
         run(session, 'name ASP220 :220')
 
-    #show or hide sidechains/atoms of structures
+        #show or hide sidechains/atoms of structures
         run(session, 'show Glu91')
         run(session, 'show p-T197')
         run(session, 'show D166')
@@ -31,7 +31,7 @@ def label_protein(session, protein):
         run(session, 'show RegulatorySpine')
         run(session, 'show CatalyticSpine')
         run(session, 'show ASP220')
-    #style structures
+        #style structures
         run(session, 'cartoon style modeHelix tube sides 10')
         run(session, 'style ligand ball')
         run(session, 'style Glu91 ball')
@@ -43,7 +43,7 @@ def label_protein(session, protein):
         run(session, 'style DFG184 ball')
         run(session, 'style D166 ball')
         run(session, 'style ASP220')
-    #color structures
+        #color structures
         run(session, 'color cyan')
         run(session, 'color HelixAlphac blue cartoons')
         run(session, 'color HelixAlphaf lightblue cartoons')
@@ -81,20 +81,20 @@ def label_protein(session, protein):
         run(session, 'name P-Loop :695-700')#
         run(session, 'name Lys72 :721')
         run(session, 'name RegulatorySpine	:753,742,832,811')#
-        run(session, 'name CatalyticSpine :726, 798, 843, 844')#
+        run(session, 'name CatalyticSpine :702,819-821,774')#
         run(session, 'name DFG184 :831')
         run(session, 'name D166 :813')
         run(session, 'name HelixAlphaf :868-885')
         run(session, 'name ASP220 :870')
 
-    #show or hide sidechains/atoms of structures
+        #show or hide sidechains/atoms of structures
         run(session, 'show Glu91')
         run(session, 'show D166')
         run(session, 'hide P-Loop')
         run(session, 'show RegulatorySpine')
         run(session, 'show CatalyticSpine')
         run(session, 'show ASP220')
-    #style structures
+        #style structures
         run(session, 'cartoon style modeHelix tube sides 10')
         run(session, 'style Glu91 ball')
         run(session, 'style D166 ball')
@@ -104,7 +104,7 @@ def label_protein(session, protein):
         run(session, 'style DFG184 ball')
         run(session, 'style D166 ball')
         run(session, 'style ASP220')
-    #color structures
+        #color structures
         run(session, 'color cyan')
         run(session, 'color HelixAlphac blue cartoons')
         run(session, 'color HelixAlphaf lightblue cartoons')

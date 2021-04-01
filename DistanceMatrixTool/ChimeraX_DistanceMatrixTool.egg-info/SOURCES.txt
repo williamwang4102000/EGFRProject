@@ -1,0 +1,10 @@
+ChimeraX_DistanceMatrixTool.egg-info/PKG-INFO
+ChimeraX_DistanceMatrixTool.egg-info/SOURCES.txt
+ChimeraX_DistanceMatrixTool.egg-info/dependency_links.txt
+ChimeraX_DistanceMatrixTool.egg-info/requires.txt
+ChimeraX_DistanceMatrixTool.egg-info/top_level.txt
+src/Dist_Calc.py
+src/__init__.py
+src/tool.html
+src/tool.py
+src/docs/user/tools/tutorial.html

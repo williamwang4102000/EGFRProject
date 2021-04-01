@@ -1,0 +1,31 @@
+Metadata-Version: 1.2
+Name: ChimeraX-DistanceMatrixTool
+Version: 1.0
+Summary: Example for adding a graphical interface tool
+Home-page: https://www.rbvi.ucsf.edu/chimerax/
+Author: UCSF RBVI
+Author-email: chimerax@cgl.ucsf.edu
+License: UNKNOWN
+Description: Example code for implementing ChimeraX bundle.
+        
+        Implements tool "Tutorial (HTML)" to access "tutorial cofm"
+        and "tutorial highlight" commands from a graphical interface.
+Platform: UNKNOWN
+Classifier: Framework :: ChimeraX
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: Freeware
+Classifier: Environment :: MacOS X :: Aqua
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: X11 Applications
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: POSIX :: Linux
+Classifier: ChimeraX :: Bundle :: General :: 1,1 :: chimerax.dist_mat_tool ::  :: 
+Classifier: ChimeraX :: Tool :: Distance Matrix ::
+      General :: Graphical interface to "tutorial" commands
+Requires-Python: >=3.7

@@ -1,0 +1,9 @@
+ChimeraX_TutorialToolHTML.egg-info/PKG-INFO
+ChimeraX_TutorialToolHTML.egg-info/SOURCES.txt
+ChimeraX_TutorialToolHTML.egg-info/dependency_links.txt
+ChimeraX_TutorialToolHTML.egg-info/requires.txt
+ChimeraX_TutorialToolHTML.egg-info/top_level.txt
+src/__init__.py
+src/tool.html
+src/tool.py
+src/docs/user/tools/tutorial.html

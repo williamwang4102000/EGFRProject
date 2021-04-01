@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Distance Matrix </title>
+</head>
+<body onload="window.location = 'tutorial:update_models';">
+<h2>Distance Matrix</h2>
+<form method="get">
+
+<p>
+    <select name="model" id="model">
+        <option value="none" selected="selected">No atomic structures open</option>
+    </select>
+</p>
+<input class="submit" type="submit" formaction="tutorial:dist" disabled="true"
+    value="Calculate Distance Matrix"/>
+<p>
+    <input type="text" id="pdb" name="pdb"><br>
+    <input class="submit" type="submit" formaction="tutorial:pdbdist" disabled="false"
+        value="Calculate PDB Distance Matrix"/>
+</p>
+</form>
+</body>
+</html>
